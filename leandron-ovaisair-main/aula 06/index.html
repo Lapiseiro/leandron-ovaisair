@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio em HTML</title>
+</head>
+<body>
+    <h1>Reproduzindo áudio</h1>
+        <h2>Primeira forma</h2>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio src="midia/03 E Mentira Dela.wma" controls autoplay></audio>
+
+    <h2>Segunda forma</h2>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/03 E Mentira Dela.wma" type="audio/wma">
+        <source src="midia/03 E Mentira Dela.wma" type="audio/wma">
+        <!--wma-->
+        <p>Infelizmente seu navegador não consegue reproduzir áudio</p>
+        <a href=""></a>
+    </audio>
+</body>
+</html>
